@@ -71,5 +71,7 @@ desc clients;
 describe authors;
 -- will show warnings
 SHOW warnings;
+-- show all the tuplas
+select * from authors;
 
 select database();
