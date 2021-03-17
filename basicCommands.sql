@@ -46,13 +46,13 @@ CREATE TABLE IF NOT EXISTS operations (
 
 -- adding Tuplas to DB method #1
 INSERT INTO authors(author_id, name, nationality)
-VALUES('', 'Juan Rulfo', 'MEX')
+VALUES(1, 'Juan Rulfo', 'MEX');
 -- adding Tuplas to DB method #2
 INSERT INTO authors(name, nationality)
-VALUES('Gabriel Garcia Marquez', 'COL')
+VALUES('Gabriel Garcia Marquez', 'COL');
 -- adding Tuplas to DB method #3
 INSERT INTO authors
-VALUES('', 'Juan Gabriel Vasquez', 'COL')
+VALUES(1, 'Juan Gabriel Vasquez', 'COL');
 
 -- select and show the DB
 USE platzi_operation;
