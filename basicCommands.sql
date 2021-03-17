@@ -53,6 +53,14 @@ VALUES('Gabriel Garcia Marquez', 'COL');
 -- adding Tuplas to DB method #3
 INSERT INTO authors
 VALUES(1, 'Juan Gabriel Vasquez', 'COL');
+-- adding Tuplas to DB method #4
+INSERT INTO authors(name, nationality)
+VALUES('Julio Cortazar', 'ARG'),
+('Isabel Allende', 'CHI'),
+('Octavio Paz', 'MEX'),
+('Juan Carlos', 'URU');
+
+
 
 -- select and show the DB
 USE platzi_operation;
